@@ -1,7 +1,16 @@
 collections_config: {}
 _enabled_editors:
   - visual
-_inputs: {}
+_inputs:
+  background:
+    type: color
+    comment: Defines the background for the entire page
+  hero_content:
+    type: markdown
+    label: Hero text
+  sidebar:
+    type: checkbox
+    hidden: true
 _select_data: {}
 _structures: {}
 _editables:
